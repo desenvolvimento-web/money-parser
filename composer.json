@@ -1,0 +1,28 @@
+{
+    "name": "desenvolvimento-web/money-parser",
+    "description": "Just some fun after a question in the PHP Brasil Facebook Group.",
+    "type": "project",
+    "require-dev": {
+        "pestphp/pest": "^0.4.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leocavalcante",
+            "email": "lc@leocavalcante.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "pest"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoneyParser\\": "src"
+        }
+    }
+}
