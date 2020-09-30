@@ -1,4 +1,4 @@
-# Money parser
+# Money parser ![CI](https://github.com/desenvolvimento-web/money-parser/workflows/CI/badge.svg)
 🤑 Just some fun after a [question](https://www.facebook.com/groups/142151625841770/permalink/3459523980771168/) in the PHP Brasil Facebook Group.
 
 ```php
