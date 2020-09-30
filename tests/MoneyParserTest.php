@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-it('parser formatted money strings', function () {
+it('parses formatted money strings', function () {
     $parser = new \MoneyParser\MoneyParser();
     expect($parser->parse('123'))->toBe(123.0);
     expect($parser->parse('1234'))->toBe(1234.0);
